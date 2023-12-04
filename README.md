@@ -1,3 +1,15 @@
+This shell script is to list users having access to the repo via GitHub API.
+
+1.Create EC2 Instance.
+2.Clone the repo on EC2.
+3.Create a token at Github.
+4. export username=""
+    export token=""
+5.Make the script executable.
+6.Run the script with two arguments "ORGNAME" "REPONAME"
+
+
+
 #!/bin/bash
 
 # GitHub API URL
